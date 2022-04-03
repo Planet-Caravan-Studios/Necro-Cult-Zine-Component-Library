@@ -1,0 +1,33 @@
+{
+  "name": "next-netlify-starter",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o ./dist",
+    "build-static": "next build && next export",
+    "init-setup": "npm ci && npm audit fix"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "fontawesome": "^5.6.3",
+    "headroom.js": "^0.12.0",
+    "jquery": "^3.5.1",
+    "markdown-it": "^12.3.2",
+    "next": "10.0.9",
+    "normalize.css": "^8.0.1",
+    "prefixfree": "^1.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.35.1",
+    "styled-components": "^5.2.1",
+    "swiper": "^6.8.4"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^3.0.3",
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}
