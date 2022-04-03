@@ -4,13 +4,13 @@
 * Project-specific notes go here.
 
 #### Server Links ####
-* Local: [http://localhost:3000/]
+* Local: [http://localhost:3000/](http://localhost:3000/)
 * Test: 
 * Staging: 
 * Live: 
 
 ## Necro Cult Zine Component Library ##
-Component library for Necro Cult Zine and sites based on it.  This project is meant to look and feel grungy and lo-fi
+Component library for Necro Cult Zine and sites based on it.  This project is meant to look and feel grungy and lo-fi - recreating the look and feel of oldschool metal zines, so some things may look a bit "off" for artistic effect at times. Each page is meant to demo an individual or set of components, giving you an isolated reference to view or copy from.
 
 
 ### Best Practices ###
@@ -22,11 +22,11 @@ Component library for Necro Cult Zine and sites based on it.  This project is me
 
 ### Initialize ###
 * Use Node v10.24.0 or v14.15.3
-* npm run init-setup (runs multiple setup commands)
-* npm run dev (start and serve commands are the same as this by default, customize them if you need to)
+* `npm run init-setup` (runs multiple setup commands)
+* `npm run dev`
 
 
-#### Page Links ####
+### Page Links ###
 * [Index/Home](http://localhost:3000/)
 * [ArticleHero](http://localhost:3000/ArticleHero)
 * [BasicForm](http://localhost:3000/BasicForm)
