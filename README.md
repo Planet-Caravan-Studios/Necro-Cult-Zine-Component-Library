@@ -5,7 +5,7 @@
 
 #### Server Links ####
 * Local: [http://localhost:3000/](http://localhost:3000/)
-* Test: 
+* Test: [Netlify](https://necro-cult-zine-component-library.netlify.app/)
 * Staging: 
 * Live: 
 

@@ -6,10 +6,7 @@ import BlogListing from '@components/BlogListing/BlogListing'
 
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, A11y, Autoplay } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);

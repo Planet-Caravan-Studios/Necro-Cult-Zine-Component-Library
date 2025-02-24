@@ -13,12 +13,22 @@ import VideoModal from '@components/Modals/VideoModal/VideoModal'
 export default function ModalWrapper({ 
   //page vars
 }) {
-return (
-	<div className={styles.ModalWrapper}>
 
-		<ModalOverlay className={styles.overlay}/>
+	useEffect(() => {
+		$(document).ready(function() {
+			//JS code in /public/scripts/main.js
+			//console.log('modal script connected');
+		});
 
-		<DefaultModal className={styles.modal}/>
-		<VideoModal className={styles.modal}/>
-	</div>  	
-)}
+	});
+
+
+	return (
+		<div className={styles.ModalWrapper}>
+
+			<ModalOverlay className={styles.overlay}/>
+
+			<DefaultModal className={styles.modal}/>
+			<VideoModal className={styles.modal}/>
+		</div>  	
+	)}
